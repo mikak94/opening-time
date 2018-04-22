@@ -1,6 +1,6 @@
 {
   "name": "opening-time",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "With given timetable for a week and a current Date, get opensAt or openTill Date.",
   "main": "./lib/index.js",
   "scripts": {

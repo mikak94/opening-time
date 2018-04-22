@@ -13,7 +13,7 @@
       ]
     },
     "production": {
-      "presets": ["env", "minify"],
+      "presets": ["env"],
       "plugins": [
         "add-module-exports"
       ]
