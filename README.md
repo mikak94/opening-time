@@ -2,6 +2,12 @@
 
 By given weekly work-time timetable calculates whether a place is open. If open, calculates the closing time. If closed, calculates the opening time.
 
+## Installation
+
+```bash
+npm install --save opening-time
+```
+
 ## Example
 
 Let's say, we have a caffee, that works with given timetable:
