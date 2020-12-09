@@ -31,8 +31,8 @@ const timetable = [
   ['10:30', '21:00'],
   ['11:30', '21:30'],
   ['09:00', '22:30'],
-  null,
-  null,
+  null,  // 'falsy' values mean a day-off
+  false,
 ];
 ```
 
