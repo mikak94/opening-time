@@ -84,7 +84,7 @@ export class OpeningTime {
   isWorkingAt(date) {
     const weekDayIdx = date.getDay();
 
-    if (this.timetable[weekDayIdx] === null) return false;
+    if (!this.timetable[weekDayIdx]) return false;
     if (this.timetable[weekDayIdx] === true) return true;
 
     const nowNum = getMinsSinceDayStarted(date.getHours(), date.getMinutes());
